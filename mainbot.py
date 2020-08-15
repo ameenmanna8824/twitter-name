@@ -32,7 +32,7 @@ def main():
 
     while True:
         # change to your own twitter_handle
-        user = api.get_user('diazoniclabs')
+        user = api.get_user('the_ameen_manna')
 
         if validate_follower_count(user) == emoji_follower_count(user):
             logger.info(
